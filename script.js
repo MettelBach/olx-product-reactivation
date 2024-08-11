@@ -32,5 +32,5 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     document.querySelector('.container').style.textAlign = 'center';
     const res = document.getElementById('result');
     res.innerHTML = links.join('<br>');
-    res.style.cssText = 'text-align: center;width: 1000px;margin: auto;padding: 50px;background: #ffffff;border: 10px solid #f2f2f2;margin-bottom: 60px;';
+    res.style.cssText = 'text-align: center;min-width: 50vw;margin: auto;padding: 50px;background: #ffffff;border: 10px solid #f2f2f2;margin-bottom: 60px;';
 });
