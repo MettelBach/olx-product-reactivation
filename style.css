@@ -1,15 +1,8 @@
 body {background: #f7f7f7;}
-  
 .form-box {max-width: 500px;margin: auto;padding: 50px;background: #ffffff;border: 10px solid #f2f2f2;}
-  
 h1, p {text-align: center;}
-  
 input, textarea {width: 100%;}
-
 #result a {text-decoration: none; color: #007bff;}
-
 #result a:hover {text-decoration: underline;}
-
 .visited {color: darkred !important;text-decoration: line-through;}
-
 #result a:active {color: darkred;}
